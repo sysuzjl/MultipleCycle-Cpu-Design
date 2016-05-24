@@ -1,0 +1,28 @@
+Command line:
+   ManyCycleCPU_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  60564
+
+Thu May 19 08:21:33 2016
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 853.791 Meg
+
+ Total Signals          : 151
+ Total Nets             : 1043
+ Total Signal Drivers   : 72
+ Total Blocks           : 22
+ Total Primitive Blocks : 21
+ Total Processes        : 102
+ Total Traceable Variables  : 56
+ Total Scalar Nets and Variables : 6981
+
+ Total Simulation Time: 0.078125 sec
+
+ Current Memory Usage: 854.839 Meg
+
+Thu May 19 08:21:37 2016
+

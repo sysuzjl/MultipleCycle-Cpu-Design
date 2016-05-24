@@ -1,0 +1,28 @@
+Command line:
+   sc_aluout_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  60769
+
+Thu May 19 08:59:19 2016
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 854.458 Meg
+
+ Total Signals          : 15
+ Total Nets             : 78
+ Total Signal Drivers   : 6
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 9
+ Total Traceable Variables  : 20
+ Total Scalar Nets and Variables : 222
+
+ Total Simulation Time: 0.046875 sec
+
+ Current Memory Usage: 855.507 Meg
+
+Thu May 19 08:59:25 2016
+

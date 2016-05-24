@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/xilinxProject/mccpu/sc_cpu.xst" -ofn "C:/xilinxProject/mccpu/sc_cpu.syr" 

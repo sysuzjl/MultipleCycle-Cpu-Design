@@ -1,0 +1,57 @@
+Running: C:\Xilinx\14.4\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/xilinxProject/mccpu/test_isim_beh.exe -prj C:/xilinxProject/mccpu/test_beh.prj work.test work.glbl 
+ISim P.49d (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/xilinxProject/mccpu/sc_signExtend.v" into library work
+WARNING:HDLCompiler:327 - "C:/xilinxProject/mccpu/sc_signExtend.v" Line 33: Concatenation with unsized literal; will interpret as 32 bits
+Analyzing Verilog file "C:/xilinxProject/mccpu/sc_regfile.v" into library work
+Analyzing Verilog file "C:/xilinxProject/mccpu/sc_pcdirect.v" into library work
+Analyzing Verilog file "C:/xilinxProject/mccpu/sc_pcaddmin.v" into library work
+Analyzing Verilog file "C:/xilinxProject/mccpu/sc_pc.v" into library work
+Analyzing Verilog file "C:/xilinxProject/mccpu/sc_IR.v" into library work
+Analyzing Verilog file "C:/xilinxProject/mccpu/sc_imem.v" into library work
+Analyzing Verilog file "C:/xilinxProject/mccpu/sc_datemem.v" into library work
+Analyzing Verilog file "C:/xilinxProject/mccpu/sc_dataselect.v" into library work
+Analyzing Verilog file "C:/xilinxProject/mccpu/sc_cpu.v" into library work
+Analyzing Verilog file "C:/xilinxProject/mccpu/sc_bdr.v" into library work
+Analyzing Verilog file "C:/xilinxProject/mccpu/sc_aluout.v" into library work
+Analyzing Verilog file "C:/xilinxProject/mccpu/sc_alum2dr.v" into library work
+Analyzing Verilog file "C:/xilinxProject/mccpu/sc_alu.v" into library work
+Analyzing Verilog file "C:/xilinxProject/mccpu/sc_adr.v" into library work
+Analyzing Verilog file "C:/xilinxProject/mccpu/sc_addfour.v" into library work
+Analyzing Verilog file "C:/xilinxProject/mccpu/CPUDesign.v" into library work
+Analyzing Verilog file "C:/xilinxProject/mccpu/test.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.4/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:327 - "C:/xilinxProject/mccpu/sc_signExtend.v" Line 33: Concatenation with unsized literal; will interpret as 32 bits
+Completed static elaboration
+Fuse Memory Usage: 155880 KB
+Fuse CPU Usage: 280 ms
+Compiling module sc_pc
+Compiling module sc_addfour
+Compiling module sc_imem
+Compiling module sc_IR
+Compiling module sc_cpu
+Compiling module dataSelect_5_Bit
+Compiling module sc_regfile
+Compiling module sc_signExtend
+Compiling module sc_adr
+Compiling module sc_bdr
+Compiling module dataSelect_32_Bit
+Compiling module sc_alu
+Compiling module sc_aluout
+Compiling module sc_datemem
+Compiling module sc_alum2dr
+Compiling module sc_pcaddmin
+Compiling module sc_pcdirect
+Compiling module dataSelect4_32_Bit
+Compiling module ManyCycleCPU
+Compiling module test
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 14 sub-compilation(s) to finish...
+Compiled 21 Verilog Units
+Built simulation executable C:/xilinxProject/mccpu/test_isim_beh.exe
+Fuse Memory Usage: 165392 KB
+Fuse CPU Usage: 468 ms
